@@ -110,7 +110,7 @@ Find me on GitHub: [${answers.github}](https://github.com/${answers.github})<br 
         `;
 
 
-        writeToFile('../README.md', readme);
+        writeToFile('../example/README', readme);
         console.log('✔️  Successfully wrote to README.md');
 
     });
